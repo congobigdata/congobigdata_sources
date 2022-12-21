@@ -1,0 +1,7 @@
+[mysql]
+host = 'localhost'
+port = 3306
+database = "c0indicators"
+user = "c0con6398"
+password = "WY@kLPauqx6"
+charset="utf8"

@@ -42,9 +42,9 @@ def add_partner(name, website, active, userId):
 def add_subscription(sector, partner, startDate, endDate):
     c.execute("""INSERT INTO subscription (sectorId, partnerId, startDate, endDate) VALUES (%s, %s, %s, %s)""", (sector, partner, startDate, endDate))
     conn.commit()
-img1 = Image.open(r"C:\xampp\htdocs\Congo-Big-Data\images\capture 1.JPG")
-img2 = Image.open(r"C:\xampp\htdocs\Congo-Big-Data\images\Capture2.JPG")
-img3 = Image.open(r"C:\xampp\htdocs\Congo-Big-Data\images\Capture3.JPG")
+img1 = Image.open(r"/root/congobigdata_code/congobigdata_sources/images/capture 1.JPG")
+img2 = Image.open(r"/root/congobigdata_code/congobigdata_sources/images/Capture2.JPG")
+img3 = Image.open(r"/root/congobigdata_code/congobigdata_sources/images/Capture3.JPG")
 def page_about():
     title = st.markdown("<h1 style='text-align: center; font-familly:work; color: #21662f;'>About Congo Big Data</h1>", unsafe_allow_html=True) 
     st.write("Congo Big Data is an online platform for viewing statistical data relating to various sectors of the DR Congo. In a rigorous and innovative way, data is collected periodically from participants in different territories and cities of 26 Congolese provinces by two consulting firms, namely Innovations et Entrepreneuriat Social (www.iescongo.com) and Data Mining Lab (www.dmlcongo.com). Other data is collected from accredited secondary sources.")

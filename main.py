@@ -99,7 +99,7 @@ elif authentication_status:
     authenticator.logout("Logout", "sidebar")
     st.sidebar.markdown(f"You are connected as {name}")
 
-    logo = Image.open(r"C:\Users\jkitu\Desktop\IES_DOC\IES-CONGO1.png")
+    logo = Image.open(r"images/IES-CONGO1.png")
     c1, c2, c3 = st.columns([0.1, 0.8, 0.1])
     with c1:
         st.markdown("""<style>background-color: aqua;} 
@@ -193,7 +193,7 @@ elif authentication_status:
                 "nav-link-selected": {"background-color": "#02ab21", "color": "white"},
             }
             )
-        logo = Image.open(r"C:\Users\jkitu\Desktop\IES_DOC\logoV2.png")
+     
         if choose == "About":
             page_about()
         elif choose == "Our Partners":

@@ -1,7 +1,7 @@
 [mysql]
 host = 'localhost'
 port = 3306
-database = "c0dbb"
-user = "c0userb"
-password = "ytM3T#ukQK6"
+database = "indicators"
+user = "root"
+password = ""
 charset="utf8"
